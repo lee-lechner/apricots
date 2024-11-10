@@ -120,7 +120,7 @@ void display_score(SDL_Surface *virtualscreen, plane &p, int x, int y, int missi
                    SDLfont &whitefont, SDLfont &greenfont) {
 
   if ((mission == 0) || (mission == 1)) {
-    char scoretitlestring[] = "Score:";
+    char scoretitlestring[] = "Eaten:";
     whitefont.write(virtualscreen, x, y, scoretitlestring);
     char scorestring[] = " xxxx";
     int score = p.score;
